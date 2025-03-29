@@ -50,7 +50,7 @@ To enhance IoT security by accurately detecting and classifying network traffic,
 ## 📊 Results
 
 - **Binary Classification:** Achieved near-perfect accuracy (~100%) in distinguishing benign from attack traffic.
-- **Multiclass Classification:** Achieved 88% accuracy overall, with noted challenges particularly in accurately classifying class 4 due to feature overlap.
+- **Multiclass Classification:** Achieved 88% accuracy overall, with noted challenges particularly in feature overlap between a couple of classes.
 
 ---
 
@@ -83,7 +83,7 @@ To enhance IoT security by accurately detecting and classifying network traffic,
 
 - Clone the repository
 - Install required libraries (`scikit-learn`, `PyTorch`, etc.)
-- Run provided Jupyter notebooks:
+- Run the provided Jupyter notebooks:
   - `preprocessing.ipynb` for data preprocessing
   - `binary_classification_v1.ipynb` for binary classification
   - `multi_class_code_v1.ipynb` for multiclass classification
